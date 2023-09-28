@@ -28,7 +28,7 @@ app.get("/reg", function (req, res){
        Password: req.query.password
     })
     .then(()=>{
-        res.send("signup Successful, Please login")
+        res.send("signup Successful, Please login <a href='/login'>LOGIN</a>")
     })
 })
 
